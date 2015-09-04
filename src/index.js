@@ -1,7 +1,7 @@
 'use strict';
 
-let semver = require('semver');
-let pkg = require('../package.json');
+import semver from 'semver';
+import pkg from '../package.json';
 
 let KindaExtendable = {};
 
@@ -165,4 +165,4 @@ let KindaExtendable = {};
   };
 }).call(KindaExtendable);
 
-module.exports = KindaExtendable;
+export default KindaExtendable;

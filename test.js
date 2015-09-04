@@ -1,7 +1,7 @@
 'use strict';
 
-let assert = require('chai').assert;
-let KindaExtendable = require('./src');
+import { assert } from 'chai';
+import KindaExtendable from './src';
 
 suite('KindaExtendable', function() {
   test('simple extend', function() {
